@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Home</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header">
+
+   <nav class="navbar nav-1" style="background-color:steelblue  ;">
+      <section class="flex">
+         <a href="home.html" class="logo" style="color: rgb(246, 246, 245);"><i class="fas fa-house" style="color: aliceblue;"></i>RealtyRealm Developers</a>
+
+         <ul>
+            <li><a href="#">post property<i class="fas fa-paper-plane"></i></a></li>
+         </ul>
+      </section>
+   </nav>
+
+   <nav class="navbar nav-2">
+      <section class="flex">
+         <div id="menu-btn" class="fas fa-bars"></div>
+
+         <div class="menu">
+            <ul>
+               <li><a href="#">buy<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="#">house</a></li>
+                     <li><a href="#">flat</a></li>
+                     <li><a href="#">shop</a></li>
+                     <li><a href="#">ready to move</a></li>
+                     <li><a href="#">furnished</a></li>
+                  </ul>
+               </li>
+               <li><a href="#">projects<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="#">Pithoria Valley</a></li>
+                     <li><a href="#">Gagi Plot</a></li>
+                     <li><a href="#">Farmhouse, Thakurgaon</a></li>
+                     <li><a href="#">Premium Garden, Kotari</a></li>
+                     <li><a href="#">Nirmala Property, Husir</a></li>
+                  </ul>
+               </li>
+               <li><a href="#">sell<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="#">post property</a></li>
+                     <li><a href="#">dashboard</a></li>
+                  </ul>
+               </li>
+               <li><a href="#">rent<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="#">house</a></li>
+                     <li><a href="#">flat</a></li>
+                     <li><a href="#">shop</a></li>
+                  </ul>
+               </li>
+               <li><a href="#">help<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="about.html">about us</a></i></li>
+                     <li><a href="contact.html">contact us</a></i></li>
+                     <li><a href="contact.html#faq">FAQ</a></i></li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+
+         <ul>
+            <li><a href="#">saved <i class="far fa-heart" style="color: steelblue;" ></i></a></li>
+            <li><a href="#">account <i class="fas fa-angle-down"></i></a>
+               <ul>
+                  <li><a href="login.html">login</a></li>
+                  <li><a href="register.html">register</a></li>
+               </ul>
+            </li>
+         </ul>
+      </section>
+   </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<div class="home">
+
+   <section class="center">
+
+      <form action="search.html" method="post">
+         <h3>find your perfect home</h3>
+         <div class="box">
+            <p>enter location <span>*</span></p>
+            <input type="text" name="location" required maxlength="50" placeholder="enter city name" class="input">
+         </div>
+         <div class="flex">
+            <div class="box">
+               <p>property type <span>*</span></p>
+               <select name="type" class="input" required>
+                  <option value="flat">flat</option>
+                  <option value="house">house</option>
+                  <option value="shop">shop</option>
+               </select>
+            </div>
+            <div class="box">
+               <p>how many BHK <span>*</span></p>
+               <select name="bhk" class="input" required>
+                  <option value="1">1 BHK</option>
+                  <option value="2">2 BHK</option>
+                  <option value="3">3 BHK</option>
+                  <option value="4">4 BHK</option>
+                  <option value="5">5 BHK</option>
+                  <option value="6">6 BHK</option>
+                  <option value="7">7 BHK</option>
+                  <option value="8">8 BHK</option>
+                  <option value="9">9 BHK</option>
+               </select>
+            </div>
+            <div class="box">
+               <p>maximum budget <span>*</span></p>
+               <select name="minimum" class="input" required>
+                  <option value="5000000">5 lac</option>
+                  <option value="1000000">10 lac</option>
+                  <option value="2000000">20 lac</option>
+                  <option value="3000000">30 lac</option>
+                  <option value="4000000">40 lac</option>
+                  <option value="4000000">40 lac</option>
+                  <option value="5000000">50 lac</option>
+                  <option value="6000000">60 lac</option>
+                  <option value="7000000">70 lac</option>
+                  <option value="8000000">80 lac</option>
+                  <option value="9000000">90 lac</option>
+                  <option value="10000000">1 Cr</option>
+                  <option value="20000000">2 Cr</option>
+                  <option value="30000000">3 Cr</option>
+                  <option value="40000000">4 Cr</option>
+                  <option value="50000000">5 Cr</option>
+                  <option value="60000000">6 Cr</option>
+                  <option value="70000000">7 Cr</option>
+                  <option value="80000000">8 Cr</option>
+                  <option value="90000000">9 Cr</option>
+                  <option value="100000000">10 Cr</option>
+                  <option value="150000000">15 Cr</option>
+                  <option value="200000000">20 Cr</option>
+               </select>
+            </div>
+            <div class="box">
+               <p>maximum budget <span>*</span></p>
+               <select name="maximum" class="input" required>
+                  <option value="5000000">5 lac</option>
+                  <option value="1000000">10 lac</option>
+                  <option value="2000000">20 lac</option>
+                  <option value="3000000">30 lac</option>
+                  <option value="4000000">40 lac</option>
+                  <option value="4000000">40 lac</option>
+                  <option value="5000000">50 lac</option>
+                  <option value="6000000">60 lac</option>
+                  <option value="7000000">70 lac</option>
+                  <option value="8000000">80 lac</option>
+                  <option value="9000000">90 lac</option>
+                  <option value="10000000">1 Cr</option>
+                  <option value="20000000">2 Cr</option>
+                  <option value="30000000">3 Cr</option>
+                  <option value="40000000">4 Cr</option>
+                  <option value="50000000">5 Cr</option>
+                  <option value="60000000">6 Cr</option>
+                  <option value="70000000">7 Cr</option>
+                  <option value="80000000">8 Cr</option>
+                  <option value="90000000">9 Cr</option>
+                  <option value="100000000">10 Cr</option>
+                  <option value="150000000">15 Cr</option>
+                  <option value="200000000">20 Cr</option>
+               </select>
+            </div>
+         </div>
+         <input type="submit" value="search property" name="search" class="btn" style="background-color: lightsteelblue;">
+      </form>
+
+   </section>
+
+</div>
+
+<!-- home section ends -->
+
+<!-- services section starts  -->
+
+<section class="services">
+
+   <h1 class="heading">our services</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="images/icon-1.png" alt="">
+         <h3>buy house</h3>
+         <p> "Discover your dream home with our extensive selection of properties, ranging from cozy cottages to luxurious estates, tailored to fit every lifestyle and budget."</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-2.png" alt="">
+         <h3>rent house</h3>
+         <p> "Spacious bedroom apartment in a vibrant neighborhood, featuring modern amenities and convenient access to local shops and restaurants."</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-3.png" alt="">
+         <h3>sell house</h3>
+         <p> "Beautiful bedroom home in a desirable neighborhood, featuring a spacious backyard and modern upgrades throughout."</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-4.png" alt="">
+         <h3>flats and buildings</h3>
+         <p>"Modern high-rise apartments with panoramic city views, luxurious amenities, and convenient access to urban living."</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-5.png" alt="">
+         <h3>shops and malls</h3>
+         <p>"Premier shopping destination featuring a diverse array of high-end boutiques, gourmet restaurants, and entertainment options, all conveniently located under one roof."</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-6.png" alt="">
+         <h3>24/7 service</h3>
+         <p>"Experience peace of mind with our 24/7 real estate service, ensuring assistance and support around the clock, whenever you need it."</p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- listings section starts  -->
+
+<section class="listings">
+
+   <h1 class="heading">latest listings</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="admin">
+            <h3>j</h3>
+            <div>
+               <p>Abhay Kumar Upadhyay</p>
+               <span>10-05-2022</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+            <p class="type"><span>house</span><span>sale</span></p>
+            <form action="" method="post" class="save">
+               <button type="submit" name="save" class="far fa-heart"></button>
+            </form>
+            <img src="images/house-img-1.webp" alt="">
+         </div>
+         <h3 class="name">modern flats and appartments</h3>
+         <p class="location"><i class="fas fa-map-marker-alt" style="color: steelblue;"></i><span>ranchi, jharkhand, india</span></p>
+         <div class="flex">
+            <p><i class="fas fa-bed" style="color: steelblue;"></i><span>3</span></p>
+            <p><i class="fas fa-bath" style="color: steelblue;"></i><span>2</span></p>
+            <p><i class="fas fa-maximize" style="color: steelblue;"></i><span>750sqft</span></p>
+         </div>
+         <a href="view_property.html" class="btn" style="background-color: lightsteelblue;">view property</a>
+      </div>
+
+      <div class="box">
+         <div class="admin">
+            <h3>j</h3>
+            <div>
+               <p>Abhay Kumar Upadhyay</p>
+               <span>10-11-2022</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+            <p class="type"><span>flat</span><span>sale</span></p>
+            <form action="" method="post" class="save">
+               <button type="submit" name="save" class="far fa-heart"></button>
+            </form>
+            <img src="images/house-img-2.webp" alt="">
+         </div>
+         <h3 class="name">modern flats and appartments</h3>
+         <p class="location"><i class="fas fa-map-marker-alt" style="color: steelblue;"></i><span>ranchi, jharkhand, india</span></p>
+         <div class="flex">
+            <p><i class="fas fa-bed" style="color: steelblue;"></i><span>3</span></p>
+            <p><i class="fas fa-bath" style="color: steelblue;"></i><span>2</span></p>
+            <p><i class="fas fa-maximize" style="color: steelblue;"></i><span>750sqft</span></p>
+         </div>
+         <a href="view_property.html" class="btn" style="background-color: lightsteelblue;">view property</a>
+      </div>
+
+      <div class="box">
+         <div class="admin">
+            <h3>j</h3>
+            <div>
+               <p>Abhay Kumar Upadhyay</p>
+               <span>10-01-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+            <p class="type"><span>flat</span><span>sale</span></p>
+            <form action="" method="post" class="save">
+               <button type="submit" name="save" class="far fa-heart"></button>
+            </form>
+            <img src="images/house-img-3.jpg" alt="">
+         </div>
+         <h3 class="name">modern flats and appartments</h3>
+         <p class="location"><i class="fas fa-map-marker-alt" style="color: steelblue;"></i><span>ranchi, jharkhand, india</span></p>
+         <div class="flex">
+            <p><i class="fas fa-bed" style="color: steelblue;"></i><span>3</span></p>
+            <p><i class="fas fa-bath" style="color: steelblue;"></i><span>2</span></p>
+            <p><i class="fas fa-maximize" style="color: steelblue;"></i><span>750sqft</span></p>
+         </div>
+         <a href="view_property.html" class="btn" style="background-color: lightsteelblue;">view property</a>
+      </div>
+
+   </div>
+
+   <div style="margin-top: 2rem; text-align:center;" style="color: black;">
+      <a href="listings.html" class="inline-btn" style="background-color: lightsteelblue ;" style="color: black;">view all</a>
+   </div>
+
+</section>
+
+<!-- listings section ends -->
+
+
+
+<!-- review section starts  -->
+
+<section class="reviews">
+
+   <h1 class="heading">What Our Clients Are Saying</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="user">
+            <img src="images/pic-1.png" alt="">
+            <div>
+               <h3>Sonu Chauhan</h3>
+               <div class="stars">
+                  <i class="fas fa-star" style="color: yellow;"></i>
+                  <i class="fas fa-star" style="color: yellow;"></i>
+                  <i class="fas fa-star" style="color: yellow;"></i>
+                  <i class="fas fa-star" style="color: yellow;"></i>
+                  <i class="fas fa-star-half-alt" style="color: yellow;"></i>
+               </div>
+            </div>
+         </div>
+         <p>"I couldn't be happier with the service provided by RealtyRealm Developers. From the initial consultation to the closing of my dream home, their team was professional, attentive, and always available to address my concerns. Thanks to their expertise, I found the perfect property within my budget. Highly recommended!"
+         </p>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="images/pic-2.png" alt="">
+            <div>
+               <h3>Aastha Aanchal</h3>
+               <div class="stars">
+                  <i class="fas fa-star"  style="color: yellow;"></i>
+                  <i class="fas fa-star"  style="color: yellow;"></i>
+                  <i class="fas fa-star" style="color: yellow;"></i>
+                  <i class="fas fa-star"  style="color: yellow;"></i>
+                  <i class="fas fa-star-half-alt"  style="color: yellow;"></i>
+               </div>
+            </div>
+         </div>
+         <p>"Working with RealtyRealm was a seamless experience from start to finish. Their knowledgeable agents guided me through every step of the home-buying process, making it stress-free and enjoyable. I appreciated their honesty, integrity, and dedication to finding me the ideal home. I'm thrilled with my new place.
+</p>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="images/pic-3.png" alt="">
+            <div>
+               <h3>Rahul Ranjan</h3>
+               <div class="stars">
+                  <i class="fas fa-star"  style="color: yellow;"></i>
+                  <i class="fas fa-star" style="color: yellow;"></i>
+                  <i class="fas fa-star"  style="color: yellow;"></i>
+                  <i class="fas fa-star"  style="color: yellow;"></i>
+                  <i class="fas fa-star-half-alt"  style="color: yellow;"></i>
+               </div>
+            </div>
+         </div>
+         <p>"I can't thank RealtyRealm Developers enough for helping me sell my house quickly and for a great price. Their marketing strategies were top-notch, attracting numerous interested buyers within days of listing. The entire team was incredibly responsive and professional throughout the entire process. I highly recommend to anyone looking to sell their home!"</p>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="images/pic-4.png" alt="">
+            <div>
+               <h3>Sunaina Prakash</h3>
+               <div class="stars">
+                  <i class="fas fa-star"  style="color: yellow;"></i>
+                  <i class="fas fa-star"  style="color: yellow;"></i>
+                  <i class="fas fa-star"  style="color: yellow;"></i>
+                  <i class="fas fa-star"  style="color: yellow;"></i>
+                  <i class="fas fa-star-half-alt"  style="color: yellow;"></i>
+               </div>
+            </div>
+         </div>
+         <p>"RealtyRealm Developers exceeded my expectations in every way possible. As a first-time homebuyer, I had a lot of questions and concerns, but their patient and knowledgeable agents were there to guide me every step of the way. They listened to my needs and preferences and found me a home that checked all the boxes. I'm so grateful for their expertise and support during this exciting milestone in my life."
+</p>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="images/pic-5.png" alt="">
+            <div>
+               <h3>Anurag Mishra</h3>
+               <div class="stars">
+                  <i class="fas fa-star"  style="color: yellow;"></i>
+                  <i class="fas fa-star"  style="color: yellow;"></i>
+                  <i class="fas fa-star"  style="color: yellow;"></i>
+                  <i class="fas fa-star"  style="color: yellow;"></i>
+                  <i class="fas fa-star-half-alt"  style="color: yellow;"></i>
+               </div>
+            </div>
+         </div>
+         <p>I recently relocated to the area and was in desperate need of a new home for my family.RealtyRealm Developers Estate went above and beyond to help us find the perfect rental property in a great neighborhood. Their team was incredibly helpful and accommodating, making the transition smooth and stress-free. We're loving our new home, and it's all thanks to them!"</p>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="images/pic-6.png" alt="">
+            <div>
+               <h3>Aditi Ayushi</h3>
+               <div class="stars">
+                  <i class="fas fa-star"  style="color: yellow;"></i>
+                  <i class="fas fa-star"  style="color: yellow;"></i>
+                  <i class="fas fa-star"  style="color: yellow;"></i>
+                  <i class="fas fa-star"  style="color: yellow;"></i>
+                  <i class="fas fa-star-half-alt"  style="color: yellow;"></i>
+               </div>
+            </div>
+         </div>
+         <p>"RealtyRealm Developers made selling my home a breeze. Their attention to detail, effective marketing strategies, and expert negotiation skills resulted in a quick and profitable sale. The entire process was seamless, and their friendly staff was always available to answer any questions I had along the way. I couldn't be happier with the outcome and highly recommend to anyone looking to buy or sell real estate."</p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- review section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer section starts  -->
+
+<footer class="footer" style="background-color: steelblue;">
+
+   <section class="flex">
+
+      <div class="box">
+         <a href="tel:7766860971"><i class="fas fa-phone" style="color: aliceblue;"></i><span>7766860971</span></a>
+         <a href="tel:9525575447"><i class="fas fa-phone" style="color: aliceblue;"></i><span>9525575447</span></a>
+         <a href="mailto:realtyrealmdevelopers@gmail.com"><i class="fas fa-envelope" style="color: aliceblue;"></i><span>realtyrealmevelopers@gmail.com</span></a>
+         <a href="#"><i class="fas fa-map-marker-alt" style="color: aliceblue;"></i><span>ranchi, india - 834005</span></a>
+      </div>
+
+      <div class="box">
+         <a href="home.html"><span>home</span></a>
+         <a href="about.html"><span>about</span></a>
+         <a href="contact.html"><span>contact</span></a>
+         <a href="listings.html"><span>all listings</span></a>
+         <a href="#"><span>saved properties</span></a>
+      </div>
+
+      <div class="box">
+         <a href="#"><span>facebook</span><i class="fab fa-facebook-f" style="color: aliceblue;"></i></a>
+         <a href="#"><span>twitter</span><i class="fab fa-twitter" style="color: aliceblue;"></i></a>
+         <a href="#"><span>linkedin</span><i class="fab fa-linkedin" style="color: aliceblue;"></i></a>
+         <a href="#"><span>instagram</span><i class="fab fa-instagram" style="color: aliceblue;"></i></a>
+
+      </div>
+
+   </section>
+
+   <div class="credit">&copy; copyright @ 2024 by Aditi Ayushi | all rights reserved!</div>
+
+</footer>
+
+<!-- footer section ends -->
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
